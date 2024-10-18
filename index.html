@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-hodisa</title>
+</head>
+
+<body>
+    <input onkeyup="Width(event.target.value)" type="text" placeholder="width">
+    <input onkeyup="Height(event.target.value)" type="text" placeholder="height">
+    <input onkeyup="Border(event.target.value)" type="text" placeholder="border">
+    <input onkeyup="Texts(event.target.value)" type="text" placeholder="text">
+    <input onchange="BG(event.target.value)" type="color" placeholder="backroundcolor">
+
+    <div id="CONTEINER">
+        <h1 id="TEXT"></h1>
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
